@@ -16,13 +16,13 @@ int main()
 	
 	//An array containing the donation amounts.
 	int donations[NUM_DONATIONS] = { 5, 100, 5, 25, 10,
-									5, 25, 5, 5, 100,
-									10,15, 10, 5, 10};
+					 5, 25, 5, 5, 100,
+					 10,15, 10, 5, 10};
 									
 	//an array of pointers to int.
 	int *arrPtr[NUM_DONATIONS] = {0, 0, 0, 0, 0,
-									0, 0, 0, 0, 0,
-									0, 0, 0, 0, 0};
+				      0, 0, 0, 0, 0,
+				      0, 0, 0, 0, 0};
 	
 	//Each element of arrPtr is a pointer to int.  Make each
 	//ekement point to an element in the donations array.
