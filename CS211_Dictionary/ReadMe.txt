@@ -1,0 +1,1 @@
+Use the transactions.txt file to run the program. The program will automatically look for the rest of the files. It will create a .txt file for each letter of the alphabet as it sorts the words from transactions.txt and data.txt into their appropriate files. These files are what is used to perform the spellcheck on myessay.txt.
